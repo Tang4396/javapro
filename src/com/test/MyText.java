@@ -40,5 +40,20 @@ public class MyText {
        静态方法中不能调用其他非静态方法
         */
 
+       /*int a = 10;
+       method(a);
+        System.out.println(a);
+        a的值为10，没有变化*/
+       /*Person a = new Person();
+       a.setAge(10);
+       method(a);
+        System.out.println(a.getAge());
+        a的age值是100 有变化*/
+    }
+    public static void method(int a){
+        a = 100;
+    }
+    public static void method(Person a){
+        a.setAge(100);
     }
 }
