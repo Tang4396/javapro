@@ -21,7 +21,8 @@ public class Person {
     public char getSex() {
         return sex;
     }
-    public int add(int a,int b){
+
+    public static int add(int a,int b){
         int c = a+b;
         return c;
     }

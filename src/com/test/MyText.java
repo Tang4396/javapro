@@ -25,11 +25,20 @@ public class MyText {
         }
         System.out.println(sum);*/
         /*i+=10和i=i+10的区别是：*/
-        Person p1 = new Person();
-        int c = p1.add(5,1);
-        System.out.println(c);
-        Person p2 = new Person();
-        int d = p2.add(6,10);
-        System.out.println(d);
+        /*  静态方法
+        *        类级别的方法
+        *        适用于一些工具，也就是说不依赖类中属性的方法
+        *        可以不用创建对象，直接调用该方法
+        *        定义的方式
+        *        访问修饰符 static 返回值类型  方法名(参数列表）{代码块}
+        *
+        *
+        * */
+
+       /* 静态static   int c = Person.add(6,10);
+       System.out.println(c);
+       静态方法中不能调用其他非静态方法
+        */
+
     }
 }
